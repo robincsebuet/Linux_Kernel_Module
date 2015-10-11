@@ -18,5 +18,5 @@ cat /proc/hello
 
 1) will show the number of running process in the system
 2) will show the pid and proc name running in the system
-1) will show the number of cpu cores available in your processor
-1) will show the current system time and date
+3) will show the number of cpu cores available in your processor
+4) will show the current system time and date
