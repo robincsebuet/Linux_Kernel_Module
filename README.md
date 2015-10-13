@@ -20,3 +20,12 @@ cat /proc/hello
 2) will show the pid and proc name running in the system
 3) will show the number of cpu cores available in your processor
 4) will show the current system time and date
+
+
+Some Important points
+
+1) Here I used vmalloc instead of kmalloc. kmalloc has some limitation in ammount of memory that can be allocated in kernel space. I have plan to remove use of vmalloc and use kmalloc
+
+
+
+
